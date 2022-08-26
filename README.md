@@ -15,8 +15,7 @@ usermod -aG sudo <Имя пользователя>
 ----------------------------------------
 ufw app list 
 #Вывод
-Available applications: 
-	OpenSSH
+Available applications: OpenSSH
 #
 ----------------------------------------
 ufw allow OpenSSH
