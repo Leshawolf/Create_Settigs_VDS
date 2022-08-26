@@ -1,4 +1,4 @@
-В данном разделе показано подключение Apache2,PHP,PHPMYADMIN,WEBMIN для VDS
+В данном разделе показано подключение apache2,php,phpmyadmin,webmin для VDS
 ----------------------------------------
 ### Начало ###
 apt update
