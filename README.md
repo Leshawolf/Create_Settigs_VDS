@@ -64,7 +64,7 @@ P.S. Небольшие комментарии обозначаю в данно�
 3) `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by '1111111';` ///Пароль должен подходить под выбраную защиту выше (LOW, MEDIUM, STRONG)
 4) `sudo mysql_secure_installation`
 
-# Установка myadmin
+# Установка PhpMyAdmin
 1) `sudo apt -y install php-mbstring`
 2) `sudo apt -y install phpmyadmin` ///Выбор Apache2
 3) `sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf`
