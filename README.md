@@ -1,9 +1,9 @@
 # Подключение apache2,php,phpmyadmin,webmin для VDS
 P.S. Небольшие комментарии обозначаю в данном разделе "///"
 
-`apt update`.
-`apt list --upgradable`
-`apt upgrade` ##выбор 10
+- `apt update`
+- `apt list --upgradable`
+- `apt upgrade` ##выбор 10
 `reboot`  ///Для перезагрузки
 `adduser <Имя пользователя>`
 `usermod -aG sudo <Имя пользователя>`
