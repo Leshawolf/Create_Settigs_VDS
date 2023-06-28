@@ -11,7 +11,9 @@ P.S. Небольшие комментарии обозначаю в данно�
 
 ## Вывод
 
-![image](https://github.com/Leshawolf/Create_Settigs_VDS/assets/74571120/a9a3beda-0845-43a4-b685-f779d4ccc71f)
+\```
+Available applications:OpenSSH
+\```
 
 9) ufw allow OpenSSH
 10) ufw enable
@@ -19,7 +21,13 @@ P.S. Небольшие комментарии обозначаю в данно�
 
 ## Вывод
 
-![image](https://github.com/Leshawolf/Create_Settigs_VDS/assets/74571120/711d77ca-ca58-4fd6-9312-8d4d76753d64)
+\```
+Status: active
+To               Action   From
+--               ------   ----
+OpenSSH          ALLOW    Anywhere
+OpenSSH (v6)     ALLOW    Anywhere (v6)
+\```
 
 # Переход на другого пользователя
 1) ssh <Имя пользователя>@<тут ваш ip>
@@ -28,7 +36,13 @@ P.S. Небольшие комментарии обозначаю в данно�
 
 ## Вывод
 
-![image](https://github.com/Leshawolf/Create_Settigs_VDS/assets/74571120/d36ab10b-1fe6-49c5-8346-739d80d4e799)
+\```
+Available applications:
+   Apache
+   Apache Full
+   Apache Secure
+   OpenSSH
+\```
 
 5) sudo ufw allow in "Apache Full"
 6) sudo apt install mysql-server
@@ -36,14 +50,23 @@ P.S. Небольшие комментарии обозначаю в данно�
 
 ## Вывод
 
-![image](https://github.com/Leshawolf/Create_Settigs_VDS/assets/74571120/a730ede4-0d36-43f1-aaaf-d5ee116b80d8)
+\```
+Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG:
+/// 0-допускает поставить лёгкий пароль от 8 символов
+/// 1-допускает поставить пароль от 8 символов, с цифрами, с разными регистрами, с специальными знаками
+/// 2- допускает поставить пароль от 8 символов, с цифрами, с разными регистрами, с спецаильными знаками, с файлом словоря.
+\```
 
 # Если необходимо создать пользователя
 ## В случае получении ошибки:
 
 ## Ошибка
 
-![image](https://github.com/Leshawolf/Create_Settigs_VDS/assets/74571120/3b00a810-f565-489e-938a-ffe8c26eaeb4)
+\```
+… Failed! Error: SET PASSWORD has no significance for user 'root'@'localhost'
+as the authentication method used doesn't store authentication data in the MySQL server.
+Please consider using ALTER USER instead if you want to change authentication parameters.
+\```
 
 1) sudo mysql
 2) CREATE USER 'root'@'localhost' IDENTIFIED BY '11111111'; ///Создание нового пользователя Mysql
