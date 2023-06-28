@@ -1,13 +1,13 @@
 # Подключение apache2,php,phpmyadmin,webmin для VDS
 P.S. Небольшие комментарии обозначаю в данном разделе "///"
 
-1) apt update
-2) apt list --upgradable
-3) apt upgrade ##выбор 10
-4) reboot  ///Для перезагрузки
-5) adduser <Имя пользователя>
-6) usermod -aG sudo <Имя пользователя>
-7) ufw app list 
+1) `apt update`
+2) `apt list --upgradable`
+3) `apt upgrade` ##выбор 10
+4) `reboot`  ///Для перезагрузки
+5) `adduser <Имя пользователя>`
+6) `usermod -aG sudo <Имя пользователя>`
+7) `ufw app list` 
 
 ## Вывод
 
@@ -19,13 +19,11 @@ P.S. Небольшие комментарии обозначаю в данно�
 
 ## Вывод
 
-\```
-Status: active
-To               Action   From
---               ------   ----
-OpenSSH          ALLOW    Anywhere
-OpenSSH (v6)     ALLOW    Anywhere (v6)
-\```
+>Status: active
+>To               Action   From
+>--               ------   ----
+>OpenSSH          ALLOW    Anywhere
+>OpenSSH (v6)     ALLOW    Anywhere (v6)
 
 # Переход на другого пользователя
 1) ssh <Имя пользователя>@<тут ваш ip>
