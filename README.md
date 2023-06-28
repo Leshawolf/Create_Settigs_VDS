@@ -1,10 +1,11 @@
-В данном разделе показано подключение apache2,php,phpmyadmin,webmin для VDS
-
+#В данном разделе показано подключение apache2,php,phpmyadmin,webmin для VDS
 ## Начало
+P.S. Небольшие комментарии обозначаю в данном разделе "//"
+
 1) apt update
 2) apt list --upgradable
 3) apt upgrade ##выбор 10
-4) reboot #Для перезагрузки
+4) reboot  //Для перезагрузки
 5) adduser <Имя пользователя>
 6) usermod -aG sudo <Имя пользователя>
 7) ufw app list 
@@ -39,7 +40,7 @@
 ![image](https://github.com/Leshawolf/Create_Settigs_VDS/assets/74571120/a730ede4-0d36-43f1-aaaf-d5ee116b80d8)
 
 #Если необходимо создать пользователя
-##В случае получении ошибки:##
+##В случае получении ошибки:
 
 ##Ошибка
 
