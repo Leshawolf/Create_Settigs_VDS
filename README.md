@@ -9,7 +9,7 @@ P.S. Небольшие комментарии обозначаю в данно�
 6) `usermod -aG sudo <Имя пользователя>`
 7) `ufw app list` 
 
-## Вывод
+### Вывод
 
 > Available applications:OpenSSH 
 
@@ -17,7 +17,7 @@ P.S. Небольшие комментарии обозначаю в данно�
 10) `ufw enable`
 11) `ufw status`
 
-## Вывод
+### Вывод
 
 >Status: active
 >To               Action   From
@@ -30,7 +30,7 @@ P.S. Небольшие комментарии обозначаю в данно�
 2) `sudo apt install apache2`
 3) `sudo ufw app list`
 
-## Вывод
+### Вывод
 
 >Available applications:
 >   Apache
@@ -42,7 +42,7 @@ P.S. Небольшие комментарии обозначаю в данно�
 6) `sudo apt install mysql-server`
 7) `sudo mysql_secure_installation`
 
-## Вывод
+### Вывод
 
 >Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG:
 >
@@ -52,8 +52,8 @@ P.S. Небольшие комментарии обозначаю в данно�
 
 # Если необходимо создать пользователя
 
-## В случае получении ошибки:
-## Ошибка
+### В случае получении ошибки:
+### Ошибка
 >… Failed! Error: SET PASSWORD has no significance for user 'root'@'localhost'
 >as the authentication method used doesn't store authentication data in the MySQL server.
 >Please consider using ALTER USER instead if you want to change authentication parameters.
