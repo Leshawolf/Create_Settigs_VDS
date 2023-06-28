@@ -11,10 +11,10 @@ P.S. Небольшие комментарии обозначаю в данно�
 
 ## Вывод
 
-` Available applications:OpenSSH `
+> Available applications:OpenSSH 
 
-9) ufw allow OpenSSH
-10) ufw enable
+9) `ufw allow OpenSSH`
+10) `ufw enable`
 11) ufw status
 
 ## Вывод
