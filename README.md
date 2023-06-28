@@ -1,6 +1,6 @@
 В данном разделе показано подключение apache2,php,phpmyadmin,webmin для VDS
 
-## Начало ##
+## Начало
 1) apt update
 2) apt list --upgradable
 3) apt upgrade ##выбор 10
