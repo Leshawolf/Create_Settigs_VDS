@@ -1,4 +1,4 @@
-# В данном разделе показано подключение apache2,php,phpmyadmin,webmin для VDS
+Подключение apache2,php,phpmyadmin,webmin для VDS
 ## Начало
 P.S. Небольшие комментарии обозначаю в данном разделе "///"
 
